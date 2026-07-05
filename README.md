@@ -7,7 +7,7 @@ corporate conglomerates or any special interest groups that profess false freedo
 disguised as "Community guidelines" or a "Code of conduct" upon their users, along with other intrusive 
 practices like forcing ideological advertisements or pop-ups during application use.
 
-## A little but different way of thinking
+## Freedom before anything else
 We utilize SystemD-Liberated instead of SystemD—not for any external, non-technical reason (we always separate the art from the artist), but because it includes code for age verification, which goes against the core principles of user freedom.
 
 ## Always separate the Art from the Artist
@@ -28,4 +28,4 @@ As long as our users want something in our repositories, we will include it. We 
 
 ## Contributing
 It's not time yet for me to asking about donations or help, if you like my personal Linux OS, then use it and 
-decide if when it's stable enough.
+decide to help or not when it's stable enough.
