@@ -1,0 +1,13 @@
+NAME="Vita-OS"
+PRETTY_NAME="Vita-OS"
+ID=vita_os
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL=""
+DOCUMENTATION_URL="https://xray-os.github.io/xray_os-website/"
+SUPPORT_URL="https://github.com/vita-linux/vita-os/issues"
+BUG_REPORT_URL="https://github.com/Xray-OS/Xray_OS/issues"
+PRIVACY_POLICY_URL="https://github.com/vita-linux/vita-os"
+LOGO=vita7z-logo
+IMAGE_ID=vita-os
+IMAGE_VERSION=v1
