@@ -521,7 +521,6 @@ xf86-video-vmware
 #xlibre-video-qxl
 #xlibre-video-nouveau
 #xlibre-input-void
-#xlibre-xserver-src
 #xlibre-xserver-xephyr
 #xlibre-xserver-xnest
 #xlibre-xserver-xvfb

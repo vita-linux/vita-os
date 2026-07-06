@@ -140,11 +140,11 @@ echo
 	# that are hosted on chaotics-aur in the packages.x86_64 at the bottom
 
 	chaoticsrepo=true
-	xlibre=true
+	xlibre=false
 	sonicde=false
 	audio="pipewire"
 	installation_config_calamares=true
-	isLaptop=false
+#	isLaptop=false
 
 	if [[ "$chaoticsrepo" == "true" ]]; then
 	    if pacman -Q chaotic-keyring &>/dev/null && pacman -Q chaotic-mirrorlist &>/dev/null; then
@@ -480,7 +480,7 @@ echo
 	#########################################################################
 
 	# If building XFCE, comment out PLASMA, GNOME and SONICDE specific packages
-	if [[ "$desktop" == "xfce4" ]]; then
+	if [[ "$desktop" == "xfce" ]]; then
 		echo "################################################################## "
 		tput setaf 3
 		echo "Commenting out Plasma packages for XFCE build"
@@ -804,8 +804,12 @@ echo
 		tput sgr0
 		echo "################################################################## "
 
-		# Remove xorg server
-		sed -i '/^xorg-server/d' "$PACKAGES_FILE"
+		# Replace xorg-server with xlibre-xserver
+		sed -i 's/^xorg-server$/xlibre-xserver/' "$PACKAGES_FILE"
+
+		# Convert xorg-* utilities to xlibre-x* equivalents
+		# Pattern: xorg-xinit → xlibre-xxinit, xorg-xrandr → xlibre-xxrandr, etc.
+		sed -i 's/^xorg-x/xlibre-xx/' "$PACKAGES_FILE"
 
 		# Convert xf86-input-* to xlibre-input-*
 		sed -i 's/xf86-input-/xlibre-input-/g' "$PACKAGES_FILE"
@@ -813,17 +817,15 @@ echo
 		# Convert xf86-video-* to xlibre-video-*
 		sed -i 's/xf86-video-/xlibre-video-/g' "$PACKAGES_FILE"
 
-		# Uncomment xlibre-specific packages
+		# Uncomment xlibre-specific packages (in case any are commented out)
 		sed -i 's/^#xlibre-/xlibre-/g' "$PACKAGES_FILE"
 
 		echo "xf86 packages converted to xlibre equivalents"
+		echo "xorg packages converted to xlibre equivalents"
 		echo "xlibre-specific packages enabled"
 
-		# Ensure xlibre-xserver-common is in the list (if not already added by uncommenting)
+		# Ensure xlibre-xserver-common is in the list (required dependency)
 		grep -q '^xlibre-xserver-common$' "$PACKAGES_FILE" || echo "xlibre-xserver-common" >> "$PACKAGES_FILE"
-
-		echo "xf86 packages converted to xlibre equivalents"
-		echo "xlibre-specific packages enabled"
 	fi
 
 #########################################################################
