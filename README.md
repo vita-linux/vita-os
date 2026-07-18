@@ -2,7 +2,9 @@
 <img src="https://images2.imgbox.com/07/c0/shcL3xwb_o.png" width="300"/>
 
 ## Overview
-Vita-OS is an Arch Linux distribution designed specifically to be free from any external influences from 
+Vita-OS is the successor of Xray_OS. 
+
+Free from any external influences from 
 corporate conglomerates or any special interest groups that profess false freedom and impose barriers 
 disguised as "Community guidelines" or a "Code of conduct" upon their users, along with other intrusive 
 practices like forcing ideological advertisements or pop-ups during application use.
@@ -15,7 +17,6 @@ We support:
 - Wayland
 - Xlibre
 - X11 (what still remains of it)
-- SonicDE
 - GNOME
 - Plasma
 
