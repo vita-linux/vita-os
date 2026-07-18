@@ -19,6 +19,7 @@ We support:
 - X11 (what still remains of it)
 - GNOME
 - Plasma
+- XFCE
 
 ## We do not censor
 As long as our users want something in our repositories, we will include it. We are not going to forbid the use of quality software or restrict "incorrect" opinions. TLDR: We do not censor.
