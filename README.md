@@ -21,7 +21,7 @@ I use SystemD-Liberated instead of SystemD, not because of any external, non-tec
 - XFCE
 
 ## Censorship is for losers
-As long as I want something in my repositories, I will include it. I am are not going to forbid the use of quality software or restrict "incorrect" opinions. TLDR: I do not censor.
+As long as I want something in my repositories, I will include it. I am not going to forbid the use of quality software or restrict "incorrect" opinions. TLDR: I do not censor.
 
 ## NO Technical Support
 Don't bother reporting an issue this is a personal project for me specifically, I'm a real software developer maintaining my own system I will not stop checking nothing, unless you offer your
