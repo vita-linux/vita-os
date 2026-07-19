@@ -27,5 +27,5 @@ As long as I want something in my repositories, I will include it. I am not goin
 Don't bother reporting an issue this is a personal project for me specifically, I'm a real software developer maintaining my own system I will not stop checking nothing, unless you offer your
 help to solve a problem, in case you're using this
 
-## You should NOT Contribute
+## You should NOT Donate
 This is a personal ArchLinux ISO made specifically for me, why should you donate for this?
