@@ -10,7 +10,7 @@ disguised as "Community guidelines" or a "Code of conduct" upon myself, I know n
 activist movement BS or some ideology religious rust stuff..
 
 ## Freedom before anything else
-We utilize SystemD-Liberated instead of SystemD—not for any external, non-technical reason (I always separate the art from the artist), but because it includes code for age verification, which goes against the core principles of user freedom.
+I use SystemD-Liberated instead of SystemD, not because of any external, non-technical reason (I always separate the art from the artist), but because it includes code for age verification, which goes against the core principles of user freedom.
 
 ## I'm free to include
 - Wayland
