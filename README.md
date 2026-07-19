@@ -20,7 +20,7 @@ I use SystemD-Liberated instead of SystemD, not because of any external, non-tec
 - Plasma
 - XFCE
 
-## Censorship if for losers
+## Censorship is for losers
 As long as I want something in my repositories, I will include it. I am are not going to forbid the use of quality software or restrict "incorrect" opinions. TLDR: I do not censor.
 
 ## NO Technical Support
