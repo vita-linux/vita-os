@@ -6,8 +6,8 @@ Vita-OS is the successor of Xray_OS.
 
 Free from any external influences from 
 corporate conglomerates or any special interest groups that profess false freedom and impose barriers 
-disguised as "Community guidelines" or a "Code of conduct" upon myself, I know now that I can sleep easy at night knowing that the system I use that is also crafted by me is not tied to any political
-activist movement BS or some ideology religious rust stuff..
+disguised as "Community guidelines" or a "Code of conduct", I know now that I can sleep easy at night knowing that the system I use that is also crafted by me is not tied to any political
+activist movement BS or some ideological religious rust stuff..
 
 ## Freedom before anything else
 I use SystemD-Liberated instead of SystemD, not because of any external, non-technical reason (I always separate the art from the artist), but because it includes code for age verification, which goes against the core principles of user freedom.
